@@ -1,3 +1,4 @@
 export default defineEventHandler((event) => {
-  return { event };
+  const context = event.context;
+  return { context };
 });
